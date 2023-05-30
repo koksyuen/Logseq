@@ -412,4 +412,5 @@
  ;;      ;use triple underscore `___` for slash `/` in page title
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
- :graph/settings {:journal? false}}
+ :graph/settings {:journal? false}
+ :zotero/settings-v2 {"default" {:type-id "10791428", :extra-tags "literature", :zotero-data-directory "/home/koksyuen/Zotero", :prefer-citekey? true, :include-notes? false, :page-insert-prefix "@"}}}
