@@ -1,4 +1,4 @@
-tags:: [[open-source]], [[read]], [[literature]]
+tags:: [[open-source]], [[read]], [[literature]], GNN
 date:: [[Mar 3rd, 2022]]
 series-text:: 无
 series-title:: 无
@@ -17,3 +17,10 @@ links:: [Local library](zotero://select/library/items/DN3AZXJV), [Web library](h
 	- We study the problem of safe and intention-aware robot navigation in dense and interactive crowds. Most previous reinforcement learning (RL) based methods fail to consider different types of interactions among all agents or ignore the intentions of people, which results in performance degradation. In this paper, we propose a novel recurrent graph neural network with attention mechanisms to capture heterogeneous interactions among agents through space and time. To encourage longsighted robot behaviors, we infer the intentions of dynamic agents by predicting their future trajectories for several timesteps. The predictions are incorporated into a model-free RL framework to prevent the robot from intruding into the intended paths of other agents. We demonstrate that our method enables the robot to achieve good navigation performance and non-invasiveness in challenging crowd navigation scenarios. We successfully transfer the policy learned in simulation to a real-world TurtleBot 2i.
 - [[Attachments]]
 	- [Liu et al. - 2022 - Intention Aware Robot Crowd Navigation with Attent.pdf](https://arxiv.org/pdf/2203.01821) {{zotero-imported-file R45EZDNE, "Liu et al. - 2022 - Intention Aware Robot Crowd Navigation with Attent.pdf"}}
+- [[Notes]]
+	- ((647672a0-1548-4c82-b74d-40b0b2e1d83a))
+	  tags:: fig
+	- ((647672e8-61de-4138-931a-fb6360e4b176))
+	  tags:: equa
+	-
+	-
