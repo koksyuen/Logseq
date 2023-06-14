@@ -292,7 +292,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites ["Query" "Templates"]
+ :favorites ["Literature Review" "Literature_notes_example" "Template" "Query" "Templates"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -413,5 +413,5 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :graph/settings {:journal? false}
- :zotero/settings-v2 {"default" {:type-id "10791428", :extra-tags "literature", :zotero-data-directory "/home/koksyuen/Zotero", :prefer-citekey? true, :include-notes? false, :page-insert-prefix "@"}}
+ :zotero/settings-v2 {"default" {:type-id "10791428", :extra-tags "literature-review", :zotero-data-directory "/home/koksyuen/Zotero", :prefer-citekey? true, :include-notes? false, :page-insert-prefix "@"}}
  :journal/page-title-format "EEE, dd.MM.yyyy"}

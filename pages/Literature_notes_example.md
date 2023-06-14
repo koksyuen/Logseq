@@ -1,0 +1,4 @@
+- [[literature notes]]
+	- tags
+		- type: [[problem statement]], [[methodology]], [[experiment]], [[result]], [[discussion]], [[research gap]], [[question]]
+		- datatype: [[fig]], [[table]], [[txt]], [[equa]]
