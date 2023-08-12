@@ -21,6 +21,9 @@ links:: [Local library](zotero://select/library/items/DN3AZXJV), [Web library](h
 	- [Liu et al. - 2022 - Intention Aware Robot Crowd Navigation with Attent.pdf](https://arxiv.org/pdf/2203.01821) {{zotero-imported-file R45EZDNE, "Liu et al. - 2022 - Intention Aware Robot Crowd Navigation with Attent.pdf"}}
 - [[Literature notes]]
   tags:: GNN, RL, crowd-navigation
+	- ((64914887-9da9-4400-ba48-7aba00ee5f6f))
+	  tags:: fig, method, main
+		- Trajectory Predictor: [[GST]]
 	- ((647672a0-1548-4c82-b74d-40b0b2e1d83a))
 	  tags:: method, equa, reward
 	- ((6477d698-2355-4661-98d4-dedce27954d2))

@@ -292,7 +292,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites ["Literature Review" "Literature_notes_example" "Template" "Query" "Templates"]
+ :favorites ["Research" "Literature Review" "Literature_notes_example" "Template" "Query" "Templates"]
 
  ;; Set flashcards interval.
  ;; Expected value:

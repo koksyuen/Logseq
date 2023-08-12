@@ -1,3 +1,5 @@
+alias:: MHA, multi-head attention, Multi-head attention, Multi Head Attention
+
 - {{video https://youtu.be/23XUv0T9L5c}}
 	- ### Overview
 	  {{youtube-timestamp 497}} 

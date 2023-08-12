@@ -1,1 +1,1 @@
-alias:: fig
+alias:: fig, pic, picture
