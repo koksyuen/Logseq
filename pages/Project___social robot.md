@@ -1,6 +1,7 @@
-alias:: socially aware navigation, social navigation，co-exist，共融
+alias:: 共融, socially aware navigation, social navigation，co-exist, socially acceptable, social comfort
 
 - literature review
+  collapsed:: true
 	- [[psychology]]
 		- [[@holmanWatchWhereYou2021]]
 		- [[@munOcclusionAwareCrowdNavigation2022]]
@@ -23,3 +24,40 @@ alias:: socially aware navigation, social navigation，co-exist，共融
 	- [[experiment]]
 		- [[evaluation]]
 		- [[simulation]]
+- Introduction
+	- Why?
+		- coexist
+		- socially acceptable behaviour
+		- avoid discomfort
+		- human-robot society
+	- treats humans as dynamic obstacle
+		- social force
+		- VO
+		- RVO
+		- ORCA
+		- APF
+	- RL
+		- robust
+		- human behavior modelling
+			- group
+			- gait, posture, head orientation
+			- gaze
+	- Emotion
+		- personal space
+		- comfort zone
+		- promexics
+	- Trajectory Prediction
+		- social (multi-human)
+			- Social GAN
+		- group
+		- gait, posture, head orientation
+		- gaze
+		-
+- keyword:
+	- socially aware navigation
+	- social navigation
+	- co-exist
+	- socially acceptable behavior
+	- social comfort
+	- Proxemics: theory of social distance
+	- social agreeable cruising
