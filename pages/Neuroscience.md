@@ -1,2 +1,9 @@
-- [[fMRI]]
-- [[fNIRS]]
+- Theory
+	- [[fMRI]]
+	- [[fNIRS]]
+	- [[working memory]]
+		- [[n-back task]]
+	- [[hemodynamic response function]]
+-
+- Project (FRGS)
+	- [[An adaptive block-design paradigm with a novel deep learning-assisted approach for better cognitive load estimation]]
