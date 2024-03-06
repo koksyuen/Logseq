@@ -1,0 +1,4 @@
+- Purpose:
+	- generalisation
+	- improve efficiency
+	- better representation (not guarantee)

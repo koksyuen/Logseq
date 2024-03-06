@@ -1,0 +1,2 @@
+- [[dropout]] should **only** be implemented during **training**
+- ![A Simple Introduction to Dropout Regularization (With Code!) | by Nisha  McNealis | Analytics Vidhya | Medium](https://miro.medium.com/v2/resize:fit:518/0*EY8R7nS10y5kQzOx)

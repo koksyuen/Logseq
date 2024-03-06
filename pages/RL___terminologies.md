@@ -1,5 +1,4 @@
-- Basic Math
-  collapsed:: true
+- collapsed:: true
 	- Notation
 	  ![image.png](../assets/image_1691822540004_0.png)
 	- [[Probability Distribution Function]] 
@@ -30,3 +29,7 @@
 	  E_A$: expectation w.r.t action $a_t \sim \pi(.|s_t)$
 	  ![image.png](../assets/image_1691879061647_0.png)
 		- assets:///home/koksyuen/Logseq/assets/image_1691878944537_0.png
+- [[mdp]]
+  ![image.png](../assets/image_1693860276323_0.png)
+- [[pomdp]]
+  ![image.png](../assets/image_1693860313799_0.png)
