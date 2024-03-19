@@ -1,0 +1,2 @@
+- {{video https://youtu.be/KuXjwB4LzSA?si=Ts4kaCs0prrAnUHz}}
+- {{youtube-timestamp 445}} think as [[sliding window]]

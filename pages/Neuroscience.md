@@ -2,7 +2,7 @@
 	- [[fMRI]]
 	- [[fNIRS]]
 	- [[working memory]]
-		- [[n-back task]]
+		- [[workload]]
 	- [[hemodynamic response function]]
 -
 - Project (FRGS)

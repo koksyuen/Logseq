@@ -1,0 +1,3 @@
+- 1. use [[least square]] to fit a line to the data
+- 2. calculate [[R-square]]
+- 3. [[p-value]] is calculated to determine if [[R-square]] value is statistically significant

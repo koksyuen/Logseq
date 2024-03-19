@@ -1,0 +1,1 @@
+alias:: Linear Time Invariant

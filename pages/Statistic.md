@@ -1,0 +1,3 @@
+- [[ANOVA]]
+- [[General Linear Model]]
+	- [[Linear Regression]]

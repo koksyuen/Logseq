@@ -292,7 +292,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites ["neuroscience" "machine learning" "Reinforcement Learning" "Research" "Literature Review" "Literature_notes_example" "Template" "Query" "Templates"]
+ :favorites ["neuroscience" "statistic" "machine learning" "reinforcement learning" "research" "literature review" "literature_notes_example" "template" "query" "templates"]
 
  ;; Set flashcards interval.
  ;; Expected value:
