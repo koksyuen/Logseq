@@ -4,6 +4,7 @@ alias:: ML
 	- [[batch normalization]]
 	- [[residual network]]
 	- [[dropout]]
+	- [[label smoothing]]
 - [[multi-task learning]]
 - [[knowledge distillation]]
 - [[meta learning]]
