@@ -1,9 +1,14 @@
 - Theory
+	- [[neuroanatomy]]
 	- [[fMRI]]
 	- [[fNIRS]]
 	- [[working memory]]
 		- [[workload]]
 	- [[hemodynamic response function]]
+	- connectivity
+		- [[structural connectivity]]
+		- [[functional connectivity]]
+		- [[effective connectivity]]
 -
 - Project (FRGS)
 	- [[An adaptive block-design paradigm with a novel deep learning-assisted approach for better cognitive load estimation]]

@@ -1,0 +1,21 @@
+- {{video https://youtu.be/AvcB9cXI1Yk?si=GznUw03bMsadVLck}}
+- https://www.simplypsychology.org/wp-content/uploads/Brodmann-areas-map-1024x796.jpeg
+- [[brodmann area 4]]
+	- equal to [[primary motor cortex]]
+	- control [[voluntary movement]]
+- [[brodmann area 6]]
+	- contains:
+		- [[premotor cortex]]
+		- [[supplementary motor cortex]]
+	- planning of [[voluntary movement]]
+- [[brodmann area 8]]
+	- equal to [[frontal eye field]]
+	- plays a role in [[eye movement]]
+- [[brodmann area 9]]
+	- part of [[Dorsolateral Prefrontal Cortex]]
+	- function:
+		- [[working memory]]
+		- [[motor planning]]
+		- [[organization]]
+		- [[regulation]]
+		- [[sustaining attention]]

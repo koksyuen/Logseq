@@ -1,0 +1,5 @@
+- {{video https://youtu.be/5yDN2q7gUaM?si=Ozd4KZiJwAN1zmxf}}
+- methods:
+	- [[seed-region correlation]]
+	- [[independent component analysis]]
+	- [[graph theory]]

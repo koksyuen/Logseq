@@ -1,0 +1,4 @@
+- {{video https://youtu.be/NSdwcKKorpQ?si=MwfkCmZ7hL6uFVAA}}
+- methods:
+	- [[dynamic causal modeling]]
+	- [[granger causality analysis]]
