@@ -5,6 +5,7 @@
 	- [[working memory]]
 		- [[workload]]
 	- [[hemodynamic response function]]
+		- [[neurovascular coupling]]
 	- connectivity
 		- [[structural connectivity]]
 		- [[functional connectivity]]

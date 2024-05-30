@@ -34,22 +34,25 @@ alias:: functional near-infrared spectroscopy
 			- G: [[geometry dependent factor]]
 				- [[light intensity]] lost due to [[scattering]] of light out of the system
 	- [[differential modified Beer-Lambert Law]]
-		- since [[geometry dependent factor]] is unknown, we cancel out G from [[MBLL]] via differentiation
-		- ![image.png](../assets/image_1716672173076_0.png)
-			- $I_{det, t1}$: baseline value (commonly use average [[light intensity]] over entire scan)
-			- $I_{det, t2}$: current detected [[light intensity]]
+		- since [[geometry dependent factor]] is unknown and assumed to be [[time-invariant]], we cancel out G from [[MBLL]] via differentiation
+			- Since $I_{inc}$ remains constant throughout an experiment
+			  ![image.png](../assets/image_1716889691674_0.png)
+			- ![image.png](../assets/image_1716672173076_0.png)
+				- $I_{det, t1}$: baseline value (commonly use average [[light intensity]] over entire scan)
+				- $I_{det, t2}$: current detected [[light intensity]]
 		- finally, we can calculate changes in concentration of [[oxyhemoglobin]] and [[deoxyhemoglobin]] based on change in [[attenuation]]
 			- ![image.png](../assets/image_1716674436955_0.png)
 		- Pros of using dMBLL:
 			- We can calculate both changes in concentration of [[oxyhemoglobin]] and [[deoxyhemoglobin]], separately (but fMRI only gets us a ratio of the two)
 		- Cons of using dMBLL:
-			- Does not give us absolute concentration, only change in concentration
+			- Does not give us absolute concentration, only **change in concentration**
 			- Assumes we know [[DPF]], [[geometry dependent factor]] is constant, and [[absorption]] of a medium is homogenous. None are actually true with [[CWfNIRS]] units
 			- [[FDfNIRS]] can measure real [[DPF]] and [[geometry dependent factor]], but is way more expensive and time-intensive. Means [[CWfNIRS]] measurements may not replicate as well across different subjects' heads or different parts of the scalp
 			- AKA, introduces more measurement noise across subjects, can't compare activation between brain areas (only within), thus requires [[GLM]]
 	- Usability Properties:
 		- Cost & Portability: Generate light with lasers or LED, much smaller/lighter/cheaper than a magnet
 		- Motion tolerance: so long as optode doesn't move on scalp, the whole measurement system is localized and not affected by movement elsewhere in the body
-		- Sampling rate: Take measurements as fast as you can flash through all your different light sources Spatial resolution: Determined by [[geometry dependent factor]] (which we can estimate from prior [[FDfNIRS]] work). Can make this better with multi-distance channel measurement
+		- Sampling rate: Take measurements as fast as you can flash through all your different light sources
+		- Spatial resolution: Determined by [[geometry dependent factor]] (which we can estimate from prior [[FDfNIRS]] work). Can make this better with multi-distance channel measurement
 		- Signal depth: Restricted by channel spacing: a wider channel gets signal to bounce deeper, but with diminishing signal quality due to increased scattering and absorption until you hit a floor of no light bouncing back out. Thus, **3 cm is a common spacing**.
 		- Participant comfort: Optodes must touch scalp to work and could potentially be too tight, but that's the only risk
