@@ -39,6 +39,7 @@ alias:: functional near-infrared spectroscopy
 			  ![image.png](../assets/image_1716889691674_0.png)
 			- ![image.png](../assets/image_1716672173076_0.png)
 				- $I_{det, t1}$: baseline value (commonly use average [[light intensity]] over entire scan)
+					- ![image.png](../assets/image_1717090906946_0.png)
 				- $I_{det, t2}$: current detected [[light intensity]]
 		- finally, we can calculate changes in concentration of [[oxyhemoglobin]] and [[deoxyhemoglobin]] based on change in [[attenuation]]
 			- ![image.png](../assets/image_1716674436955_0.png)
