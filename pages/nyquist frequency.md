@@ -1,1 +1,1 @@
-- defined as half of the [[sampling rate]] of a discrete signal processing system. It is the highest frequency that can be accurately represented when a continuous signal is sampled at a given rate.
+- defined as half of the [[sampling rate]] of a discrete signal processing system. It is the **highest frequency that can be accurately represented when a continuous signal is sampled at a given rate**.
