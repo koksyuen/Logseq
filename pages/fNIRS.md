@@ -54,6 +54,6 @@ alias:: functional near-infrared spectroscopy
 		- Cost & Portability: Generate light with lasers or LED, much smaller/lighter/cheaper than a magnet
 		- Motion tolerance: so long as optode doesn't move on scalp, the whole measurement system is localized and not affected by movement elsewhere in the body
 		- Sampling rate: Take measurements as fast as you can flash through all your different light sources
-		- Spatial resolution: Determined by [[geometry dependent factor]] (which we can estimate from prior [[FDfNIRS]] work). Can make this better with multi-distance channel measurement
+		- [[Spatial resolution]]: Determined by [[geometry dependent factor]] (which we can estimate from prior [[FDfNIRS]] work). Can make this better with [[multi-distance channel measurement]]
 		- Signal depth: Restricted by channel spacing: a wider channel gets signal to bounce deeper, but with diminishing signal quality due to increased scattering and absorption until you hit a floor of no light bouncing back out. Thus, **3 cm is a common spacing**.
 		- Participant comfort: Optodes must touch scalp to work and could potentially be too tight, but that's the only risk
