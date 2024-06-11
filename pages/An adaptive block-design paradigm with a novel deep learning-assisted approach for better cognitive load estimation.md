@@ -1,6 +1,38 @@
 - Plan
-	- TODO [#A] review
-	-
+	- Prerequisite
+		- preprocessing
+			- DONE [[butterworth bandpass filter]]
+			- DONE [[Temporal Derivative Distribution Repair]]
+		- analysis
+			- DOING [[General Linear Model]]
+			  :LOGBOOK:
+			  CLOCK: [2024-06-12 Wed 00:22:46]
+			  CLOCK: [2024-06-12 Wed 00:22:54]
+			  :END:
+			- DOING [[t-test]]
+			  :LOGBOOK:
+			  CLOCK: [2024-06-12 Wed 00:23:00]
+			  CLOCK: [2024-06-12 Wed 00:23:05]
+			  :END:
+	- activities
+		- DOING [[Meeting with Dr Lim Lam Ghai]]
+		  :LOGBOOK:
+		  CLOCK: [2024-06-12 Wed 00:28:00]
+		  CLOCK: [2024-06-12 Wed 00:28:05]
+		  :END:
+	- dataset
+		- LATER manual labelling
+		  :LOGBOOK:
+		  CLOCK: [2024-06-12 Wed 00:24:15]--[2024-06-12 Wed 00:24:15] =>  00:00:00
+		  CLOCK: [2024-06-12 Wed 00:24:16]--[2024-06-12 Wed 00:24:16] =>  00:00:00
+		  CLOCK: [2024-06-12 Wed 00:24:25]--[2024-06-12 Wed 00:24:26] =>  00:00:01
+		  CLOCK: [2024-06-12 Wed 00:24:26]--[2024-06-12 Wed 00:24:27] =>  00:00:01
+		  :END:
+	- research
+		- LATER perform experiments at [[University Teknologi Petronas]]
+	- paper
+		- LATER paper 1
+		- LATER paper 2
 - Brief summary
   collapsed:: true
 	- {{renderer :wordcountchar_}}
