@@ -1,0 +1,3 @@
+- a threshold set by the researcher before conducting the test.
+- Common choices for \(\alpha\) are **0.05**, **0.01**, and **0.10**.
+- It represents the probability of rejecting the [[null hypothesis]] when it is actually true ([[type 1 error]]).

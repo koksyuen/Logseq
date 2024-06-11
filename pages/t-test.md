@@ -1,0 +1,12 @@
+- Approaches:
+	- uses [[Sum of Square Error]] as noise
+		- ![image.png](../assets/image_1718083227527_0.png)
+		- {{video https://youtu.be/BjDRsCC-8p8?si=IBfvLsAGu9ZVFfMo&t=119}}
+	- isolate time series data into blocks, and perform [[GLM]] on every block. Finally perform t-test using mean and standard deviation of obtained betas.
+		- ![image.png](../assets/image_1718083276275_0.png)
+		- {{video https://youtu.be/9VGX1ui4nFk?si=357XRVJcKF3aEhEX&t=900}}
+	- Uses [[covariance matrix]] to calculate noise
+		- ![image.png](../assets/image_1718083300213_0.png)
+			- {{video https://youtu.be/NRunOo7EKD8?si=Z2tXAwVXK2-HU5JU&t=169}}
+		- ![image.png](../assets/image_1718083344656_0.png)
+			- {{video https://youtu.be/qnjiJ41cryQ?si=tOekyqOUwu_15Wcx&t=309}}

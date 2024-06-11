@@ -1,0 +1,1 @@
+- occurs when the [[null hypothesis]] (\(H_0\)) is true, but we incorrectly reject it

@@ -1,0 +1,7 @@
+- **Decision Rule**: Compare the p-value to the [[significance level]] \(\alpha\).
+	- If \( \text{p-value} \leq \alpha \): Reject the [[null hypothesis]] (\(H_0\)).
+	- If \( \text{p-value} > \alpha \): Fail to reject the [[null hypothesis]].
+- could also be [[type 1 error]]
+	- {{video https://youtu.be/0YaRh02bnkY?si=B3LZ3ntimGnaU9Ag}}
+- {{video https://youtu.be/vemZtEM63GY?si=lvNFgPsVaDczKAhl}}
+- {{video https://youtu.be/JQc3yx0-Q9E?si=NNWIwACLwDuSEAEa}}
