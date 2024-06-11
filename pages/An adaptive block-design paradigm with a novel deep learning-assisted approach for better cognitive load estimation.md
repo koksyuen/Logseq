@@ -1,10 +1,16 @@
+- Plan
+	- TODO [#A] review
+	-
 - Brief summary
+  collapsed:: true
 	- {{renderer :wordcountchar_}}
 		- Functional near-infrared spectroscopy (fNIRS) is a neuroimaging technique that indirectly measures neuronal activity via the hemodynamic response (HR). In recent years, fNIRS-based brain-computer interfaces have shown tremendous potential in assessing cognitive state. Adopting the conventional block-design paradigm, a control block is fixed after each task block to allow the evoked HR to return to the baseline. However, several studies have reported that improper baseline recovery may occur, causing large variabilities in the observed brain activations to the extent that affects result interpretations. This implies that the individual’s evoked HR requires different amounts of time to recover to baseline. Hence, we aim to enhance cognitive load estimation by proposing an adaptive block-design paradigm with a novel deep learning-assisted approach. First, a proof of concept will be conducted by identifying and labeling 2000 recorded fNIRS data containing a variety of 15-s hemodynamic responses into four classes; (i) optimal baseline, (ii) suboptimal baseline, (iii) activation, and (iv) oscillation. Several promising deep learning techniques, i.e., convolutional neural network, long short-term memory, and transformer, will be used to train the data. Another fNIRS dataset, recorded from 40 participants performing multiple difficulty levels of mental arithmetic, will be used to assess the effectiveness of the proposed method. Using the most suitable deep learning technique, the proposed method will be applied in a real-time setup to optimize the control duration accordingly. A new task block will begin whenever the proposed method detects a proper neural baseline recovery. We expect to observe a significant improvement in cognitive load estimation as compared to the conventional block-design paradigm. This novel project will be the first study to attempt an adaptive block-design paradigm, offering a practical and promising solution to assess and diagnose cognitive impairments, such as in individuals with Alzheimer’s disease.
 - Abstract
+  collapsed:: true
 	- {{renderer :wordcount_}}
 		- Functional near-infrared spectroscopy (fNIRS) is a neuroimaging technique that indirectly measures neuronal activity via the hemodynamic response (HR). In recent years, fNIRS-based brain-computer interfaces have shown tremendous potential in assessing cognitive state. Adopting the conventional **block-design** paradigm, a control block is fixed after each task block to allow the **evoked HR** to return to the **baseline**. However, several studies have reported that **improper baseline recovery** may occur, causing large variabilities in the observed brain activations to the extent that affects result interpretations. This implies that the individual’s evoked HR requires different amounts of time to recover to baseline. Hence, we aim to enhance cognitive load estimation by proposing an adaptive block-design paradigm with a novel deep learning-assisted approach. First, **a proof of concept will be conducted by identifying and labeling 2000 recorded fNIRS data containing a variety of 15-s hemodynamic responses into four classes; (i) optimal baseline, (ii) suboptimal baseline, (iii) activation, and (iv) oscillation**. Several promising deep learning techniques, i.e., convolutional neural network, long short-term memory, and transformer, will be used to train the data. Another fNIRS dataset, recorded from 40 participants performing multiple difficulty levels of mental arithmetic, will be used to assess the effectiveness of the proposed method. Using the most suitable deep learning technique, the proposed method will be applied in a **real-time** setup to optimize the control duration accordingly. A new task block will **begin whenever the proposed method detects a proper neural baseline recovery**. We expect to observe a significant improvement in cognitive load estimation as compared to the conventional block-design paradigm. This novel project will be the first study to attempt an adaptive block-design paradigm, offering a practical and promising solution to assess and diagnose cognitive impairments, such as in individuals with Alzheimer’s disease.
 - Proposal
+  collapsed:: true
 	- Abstract
 	- Introduction
 	- {{renderer :wordcount_}}
@@ -41,7 +47,6 @@
 				- second-stage (**validation**)
 					- Another fNIRS dataset, recorded from 40 participants performing multiple difficulty levels of mental arithmetic, will be used to assess the effectiveness of the proposed method.
 - Overview
+  collapsed:: true
 	- [[fNIRS]] 
 	  ![fNIRS.jpg](../assets/fNIRS_1709720671786_0.jpg)
-- Literature Review
-	-
