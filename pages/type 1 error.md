@@ -1,1 +1,2 @@
 - occurs when the [[null hypothesis]] (\(H_0\)) is true, but we incorrectly reject it
+- ![image.png](../assets/image_1718087943297_0.png)
