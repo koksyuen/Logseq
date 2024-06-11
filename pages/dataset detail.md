@@ -1,0 +1,4 @@
+- every subject experiences 18 trials in total
+	- 3 trials per difficulty level
+	- 6 difficulty levels in total
+- 52 [[fNIRS]] receivers

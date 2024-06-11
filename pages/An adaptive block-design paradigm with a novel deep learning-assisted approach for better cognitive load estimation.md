@@ -21,6 +21,7 @@
 		  CLOCK: [2024-06-12 Wed 00:28:05]
 		  :END:
 	- dataset
+		- DONE [[dataset detail]]
 		- LATER manual labelling
 		  :LOGBOOK:
 		  CLOCK: [2024-06-12 Wed 00:24:15]--[2024-06-12 Wed 00:24:15] =>  00:00:00
