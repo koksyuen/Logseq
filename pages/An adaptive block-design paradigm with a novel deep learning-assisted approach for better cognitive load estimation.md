@@ -1,8 +1,9 @@
 - Plan
-	- Prerequisite
+	- Prerequisites
 		- preprocessing
 			- DONE [[butterworth bandpass filter]]
 			- DONE [[Temporal Derivative Distribution Repair]]
+			- LATER [[baseline correction]]
 		- analysis
 			- DOING [[General Linear Model]]
 			  :LOGBOOK:
