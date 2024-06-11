@@ -14,6 +14,14 @@
 			  CLOCK: [2024-06-12 Wed 00:23:00]
 			  CLOCK: [2024-06-12 Wed 00:23:05]
 			  :END:
+			- DOING [[ANOVA]]
+			  :LOGBOOK:
+			  CLOCK: [2024-06-12 Wed 02:00:15]
+			  CLOCK: [2024-06-12 Wed 02:00:18]
+			  :END:
+			- TODO [[bonferroni post hoc]]
+			- TODO [[Geisser-Greenhouse correction]]
+			- TODO [[Pearson correlation coefficient]]
 	- activities
 		- DOING [[Meeting with Dr Lim Lam Ghai]]
 		  :LOGBOOK:
@@ -21,7 +29,10 @@
 		  CLOCK: [2024-06-12 Wed 00:28:05]
 		  :END:
 	- dataset
-		- DONE [[dataset detail]]
+		- DOING [[dataset detail]]
+		  :LOGBOOK:
+		  CLOCK: [2024-06-12 Wed 01:07:39]
+		  :END:
 		- LATER manual labelling
 		  :LOGBOOK:
 		  CLOCK: [2024-06-12 Wed 00:24:15]--[2024-06-12 Wed 00:24:15] =>  00:00:00
