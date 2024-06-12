@@ -4,7 +4,6 @@ alias:: R square, R^2, R2
 - Procedure:
 	- Calculate variance with respect to mean
 	  ![image.png](../assets/image_1710214683572_0.png)
-		- assets:///C%3A/Users/koksy/OneDrive/Desktop/Logseq/assets/image_1710214683572_0.png
 	- Calculate variance with respect to fit
 	  ![image.png](../assets/image_1710214828647_0.png)
 	- ![image.png](../assets/image_1710214935268_0.png)
