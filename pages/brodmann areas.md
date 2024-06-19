@@ -1,3 +1,4 @@
+- [Brodmann Areas Of The Brain: Anatomy And Functions (simplypsychology.org)](https://www.simplypsychology.org/brodmann-areas.html)
 - {{video https://youtu.be/AvcB9cXI1Yk?si=GznUw03bMsadVLck}}
 - https://www.simplypsychology.org/wp-content/uploads/Brodmann-areas-map-1024x796.jpeg
 - [[brodmann area 4]]
