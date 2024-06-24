@@ -4,6 +4,7 @@ alias:: R square, R^2, R2
 - denotes goodness of fit
 	- thus greater is better
 - Procedure:
+	- {{video https://youtu.be/bMccdk8EdGo?si=O3iQVp7utW4nyMnM}}
 	- Calculate variance with respect to mean
 	  ![image.png](../assets/image_1710214683572_0.png)
 	- Calculate variance with respect to fit
@@ -12,7 +13,8 @@ alias:: R square, R^2, R2
 	- ![image.png](../assets/image_1710252013235_0.png)
 	  Also can be 
 	  $R^2=\frac{SS(mean)-SS(fit)}{SS(mean)}$
-- $R^2$ must be scaled by number of parameters
-	- because
-		- ![image.png](../assets/image_1710252859404_0.png)
-		- the more parameters we add to equation, the more opportunities we have for random events to reduce $SS(fit)$ and improve $R^2$
+- [[adjusted R square]]
+	- $R^2$ must be scaled by number of parameters
+		- because
+			- ![image.png](../assets/image_1710252859404_0.png)
+			- the more parameters we add to equation, the more opportunities we have for random events to reduce $SS(fit)$ and improve $R^2$
