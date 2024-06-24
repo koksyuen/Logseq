@@ -12,8 +12,10 @@
 - [[brodmann area 8]]
 	- equal to [[frontal eye field]]
 	- plays a role in [[eye movement]]
-- [[brodmann area 9]]
+- [[brodmann area 9]] and [[brodmann area 46]]
 	- part of [[Dorsolateral Prefrontal Cortex]]
+	- [[fNIRS]] channels arrangement used by [[An adaptive block-design paradigm with a novel deep learning-assisted approach for better cognitive load estimation]] 
+	  ![image.png](../assets/image_1719249180786_0.png){:height 1455, :width 749}
 	- function:
 		- [[working memory]]
 		- [[motor planning]]

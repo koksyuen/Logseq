@@ -1,6 +1,8 @@
 alias:: R square, R^2, R2
 
 - Calculate how much **reduction in variation** after taking the parameters into account.
+- denotes goodness of fit
+	- thus greater is better
 - Procedure:
 	- Calculate variance with respect to mean
 	  ![image.png](../assets/image_1710214683572_0.png)
