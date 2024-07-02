@@ -1,5 +1,5 @@
 - Approaches:
-	- most understandable and formal method to apply t-test for [[GLM]]
+	- most understandable and formal mathematical method to apply t-test for [[GLM]]
 		- {{video https://youtu.be/ZVXZS5yKtUs?si=-EL0TStCOx9WF4RW}}
 	- uses [[Sum of Square Error]] as noise
 		- ![image.png](../assets/image_1718083227527_0.png)
