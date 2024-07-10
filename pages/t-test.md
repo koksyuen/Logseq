@@ -9,6 +9,7 @@
 		  collapsed:: true
 			- ![image.png](../assets/image_1720547295899_0.png)
 			- ![image.png](../assets/image_1720547378216_0.png)
+			- ![image.png](../assets/image_1720595783253_0.png)
 		- {{video https://youtu.be/ZVXZS5yKtUs?si=-EL0TStCOx9WF4RW}}
 	- uses [[Sum of Square Error]] as noise
 		- ![image.png](../assets/image_1718083227527_0.png)
