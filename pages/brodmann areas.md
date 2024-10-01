@@ -15,6 +15,8 @@
 - [[brodmann area 9]] and [[brodmann area 46]]
 	- part of [[Dorsolateral Prefrontal Cortex]]
 	- [[fNIRS]] channels arrangement used by [[An adaptive block-design paradigm with a novel deep learning-assisted approach for better cognitive load estimation]]
+		- ![image.png](../assets/image_1727807599031_0.png)
+			- green: center of [[Dorsomedial Prefrontal Cortex]]
 		- ![image.png](../assets/image_1719249180786_0.png){:height 720, :width 369}
 		-
 		- ![image.png](../assets/image_1720292183995_0.png)
