@@ -15,11 +15,12 @@
 - [[brodmann area 9]] and [[brodmann area 46]]
 	- part of [[Dorsolateral Prefrontal Cortex]]
 	- [[fNIRS]] channels arrangement used by [[An adaptive block-design paradigm with a novel deep learning-assisted approach for better cognitive load estimation]]
-		- ![image.png](../assets/image_1727807599031_0.png){:height 193, :width 450}
-			- green: center of [[Dorsomedial Prefrontal Cortex]]
+		- ![Fig. 2. Source-Detector pair configuration based on the international 10/20 system.](https://pdf.cdn.readpaper.com/parsed/fetch_target/d73aae2bd1a2bd61fed2e76bfb5d1208_2_Figure_2_783213526.png){:height 173, :width 367}
+			- White: [[Prefrontal Cortex]]
+		- ![image.png](../assets/image_1727807599031_0.png){:height 163, :width 376}
+			- green: center of [[Dorsolateral Prefrontal Cortex]]
 			- pink/purple: channels used by [[Optimizing Mental Workload Estimation by Detecting Baseline State Using Vector Phase Analysis Approach]]
 		- ![image.png](../assets/image_1719249180786_0.png){:height 720, :width 369}
-		-
 		- ![image.png](../assets/image_1720292183995_0.png)
 			- left [[dorsolateral pfc]]: 8, 18, 19, 29
 			- right [[dorsolateral pfc]]: 3, 13, 14, 24
