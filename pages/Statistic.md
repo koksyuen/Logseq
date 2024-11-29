@@ -4,3 +4,4 @@
 - [[General Linear Model]]
 	- [[Linear Regression]]
 	- [[Robust Regression]]
+- [[degree of freedom]]
