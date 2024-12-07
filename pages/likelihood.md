@@ -1,3 +1,3 @@
-- a logical flip of view of [[PDF]] of target estimation variable
+- a logical flip of view of [[PDF]] of target parameter
 	- ![image.png](../assets/image_1733592822567_0.png)
 - {{video https://youtu.be/ScduwntrMzc?si=TlIPUcDkp4leucYs}}
