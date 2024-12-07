@@ -1,0 +1,3 @@
+- {{video https://youtu.be/EJe3jiZNwUU?si=_LwwkM_Xqg1XCX5c}}
+- calculating via [[bootstrapping]]
+	- {{video https://youtu.be/TqOeMYtOc1w?si=9rp02gi3ZOCVGFZD}}
