@@ -19,4 +19,3 @@ alias:: cerebrum cortex
 			- [[inferior frontal sulcus]]
 - [[gyrus]]
 	- ![image.png](../assets/image_1714040271251_0.png)
-- [[brodmann areas]]
