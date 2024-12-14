@@ -1,0 +1,3 @@
+alias:: diffuse optical tomography
+
+- ![Figure 1. A decision tree that provides a definition of the different forms of diffuse optical monitoring. Although nomenclature varies across the field, these are the definitions preferred by the authors. 2D, two dimensional; NIRS, near-infrared spectroscopy.](https://pdf.cdn.readpaper.com/parsed/fetch_target/360d302aa39f5ed3a11e8858b3b4ef20_1_Figure_1_-644428819.png)

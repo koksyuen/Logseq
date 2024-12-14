@@ -2,15 +2,17 @@
 	- [[neuroanatomy]]
 		- [[cerebrum]]
 		- [[brodmann areas]]
-	- [[fMRI]]
-	- [[fNIRS]]
-		- analysis for activation
-			- [[GLM]] with [[cHRF]]
-			  logseq.order-list-type:: number
-			- [[FLOBS]]
-			  logseq.order-list-type:: number
-			- [[finite impulse response]] / [[deconvolution]]
-			  logseq.order-list-type:: number
+	- Device
+		- [[fMRI]]
+		- [[fNIRS]]
+			- analysis for activation
+				- [[GLM]] with [[cHRF]]
+				  logseq.order-list-type:: number
+				- [[FLOBS]]
+				  logseq.order-list-type:: number
+				- [[finite impulse response]] / [[deconvolution]]
+				  logseq.order-list-type:: number
+		- [[DOT]]
 	- [[working memory]]
 		- [[workload]]
 	- [[hemodynamic response function]]

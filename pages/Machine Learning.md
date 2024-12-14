@@ -13,7 +13,7 @@ alias:: ML
 - [[Transformers]]
 	- [[BERT]]
 	- [[ViT]]
-	-
 - [[GNN]]
 	- [[GNN/GCN]]
 	- [[GNN/GAT]]
+- [[Reinforcement Learning]]

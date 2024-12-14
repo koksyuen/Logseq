@@ -5,7 +5,6 @@
 	- [[p-hacking]]
 - [[General Linear Model]]
 	- [[Linear Regression]]
-	- [[Robust Regression]]
 - [[degree of freedom]]
 - [[confidence interval]]
 - [[Type 1 error]] and [[Type 2 error]]

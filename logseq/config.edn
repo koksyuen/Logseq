@@ -292,7 +292,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites ["matlab" "neuroscience" "statistic" "machine learning" "reinforcement learning" "research" "literature review" "literature_notes_example" "template" "query" "templates"]
+ :favorites ["meeting with dr lim lam ghai" "neuroscience" "algebra" "statistic" "linear algebra" "machine learning" "reinforcement learning" "research" "nwpu research" "literature review" "literature_notes_example" "template" "query" "templates"]
 
  ;; Set flashcards interval.
  ;; Expected value:
