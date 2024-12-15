@@ -1,1 +1,1 @@
-alias:: Probability Distribution Function
+alias:: Probability Density Function

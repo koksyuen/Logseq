@@ -1,6 +1,11 @@
+- distribution
+	- [[normal distribution]]
+	- [[Multivariate Normal distribution]]
+	- [[chi squared distribution]]
 - [[hypothesis testing]]
-- [[t-test]]
-- [[ANOVA]]
+	- [[t-test]]
+	- [[chi squared test]]
+	- [[ANOVA]]
 - [[p-value]]
 	- [[p-hacking]]
 - [[General Linear Model]]
