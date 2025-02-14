@@ -1,4 +1,5 @@
 - Plan
+  collapsed:: true
 	- Prerequisites
 	  collapsed:: true
 		- preprocessing
@@ -48,6 +49,7 @@
 		- LATER paper 1
 		- LATER paper 2
 - Brief summary
+  collapsed:: true
 	- {{renderer :wordcount_}}/
 		- The study aims to enhance cognitive load estimation using fNIRS by proposing an adaptive block-design paradigm with deep learning. This method optimizes task timing based on neural baseline recovery, improving state assessment and aiding cognitive impairment diagnosis.
 	- {{renderer :wordcountchar_}}
@@ -56,6 +58,20 @@
   collapsed:: true
 	- {{renderer :wordcount_}}
 		- Functional near-infrared spectroscopy (fNIRS) is a neuroimaging technique that indirectly measures neuronal activity via the hemodynamic response (HR). In recent years, fNIRS-based brain-computer interfaces have shown tremendous potential in assessing cognitive state. Adopting the conventional **block-design** paradigm, a control block is fixed after each task block to allow the **evoked HR** to return to the **baseline**. However, several studies have reported that **improper baseline recovery** may occur, causing large variabilities in the observed brain activations to the extent that affects result interpretations. This implies that the individual’s evoked HR requires different amounts of time to recover to baseline. Hence, we aim to enhance cognitive load estimation by proposing an adaptive block-design paradigm with a novel deep learning-assisted approach. First, **a proof of concept will be conducted by identifying and labeling 2000 recorded fNIRS data containing a variety of 15-s hemodynamic responses into four classes; (i) optimal baseline, (ii) suboptimal baseline, (iii) activation, and (iv) oscillation**. Several promising deep learning techniques, i.e., convolutional neural network, long short-term memory, and transformer, will be used to train the data. Another fNIRS dataset, recorded from 40 participants performing multiple difficulty levels of mental arithmetic, will be used to assess the effectiveness of the proposed method. Using the most suitable deep learning technique, the proposed method will be applied in a **real-time** setup to optimize the control duration accordingly. A new task block will **begin whenever the proposed method detects a proper neural baseline recovery**. We expect to observe a significant improvement in cognitive load estimation as compared to the conventional block-design paradigm. This novel project will be the first study to attempt an adaptive block-design paradigm, offering a practical and promising solution to assess and diagnose cognitive impairments, such as in individuals with Alzheimer’s disease.
+	- 6-month review
+		- {{renderer :wordcount_}}
+			- Key Research Topic
+			  Functional near-infrared spectroscopy (fNIRS) is a neuroimaging technique that indirectly measures neuronal activity via the hemodynamic response (HR). In recent years, fNIRS-based brain-computer interfaces have shown tremendous potential in assessing cognitive state. The conventional block-design paradigm in fNIRS studies employs a fixed control block after each task block to allow the evoked HR to return to the baseline. However, improper baseline recovery has been reported in several studies, causing large variabilities in observed brain activations and complicating result interpretations. Individual variations in HR recovery time necessitate an adaptive approach. This research aims to enhance cognitive load estimation by proposing an adaptive block-design paradigm with a novel deep learning-assisted approach.
+			  
+			  Detailed Research Questions
+			  How can the variability in hemodynamic responses caused by improper baseline recovery be quantified and addressed in fNIRS-based experiments?
+			  What are the critical features in hemodynamic response data that indicate baseline recovery, and how can these be effectively classified using deep learning?
+			  Which deep learning architecture (CNN, LSTM, Transformer) performs best in accurately classifying baseline recovery states, and why?
+			  How does the proposed adaptive block-design paradigm improve the accuracy and reliability of cognitive load estimation compared to the conventional block-design paradigm?
+			  Can real-time detection of baseline recovery enhance the applicability of fNIRS for diagnosing cognitive impairments?
+			  
+			  Methods
+			  A proof of concept will involve identifying and labeling 2000 recorded fNIRS data containing 15-second hemodynamic responses into four categories; (i) optimal baseline, (ii) suboptimal baseline, (iii) activation and (iv) oscillation. Several promising deep learning techniques, i.e., convolutional neural network, long short-term memory, and transformer, will be used to train the data. The proposed adaptive method will then be validated using an fNIRS dataset collected from 40 participants performing mental arithmetic tasks at varying difficulty levels. Next, the method will be implemented in a real-time setup to adjust control block durations dynamically. A new task block will begin only after proper neural baseline recovery is detected by the proposed model. The effectiveness of the adaptive block-design paradigm will be evaluated by comparing its cognitive load estimation accuracy to that of the conventional paradigm.
 - Proposal
   collapsed:: true
 	- Abstract
@@ -97,3 +113,21 @@
   collapsed:: true
 	- [[fNIRS]] 
 	  ![fNIRS.jpg](../assets/fNIRS_1709720671786_0.jpg)
+- Journal
+	- Targets
+		- (i) IEEE Journal of Biomedical and Health Informatics, impact factor 6.7, Q1
+		- (ii) IEEE Transactions on Cognitive and Developmental Systems, impact factor 5, Q1
+		- (iii) IEEE Transactions on Neural Systems and Rehabilitation Engineering, impact factor 4.8, Q1
+	- Result
+		- optimization of parameters
+		- intra-subject result analysis
+			- Fixed ROI Channel: choose few subjects to compare (subjects which has lots of OBB vs less OBB)
+		- inter-subject result analysis
+			- Number of OBB
+			- Bar chart of Beta (Group average)
+			- Bar chart of t-value (one sample t-test)
+			- Excel file of p-value (paired t-test)
+			- Group Block Plot
+		- comparison of performance with other methods
+			- should I do comparison with single channel VPA on the previously defined ROI
+		- correlation with response time

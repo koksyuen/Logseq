@@ -14,5 +14,6 @@
 - [[confidence interval]]
 - [[Type 1 error]] and [[Type 2 error]]
 - [[bayes theorem]]
+	- [[bayes statistic]]
 - [[likelihood]]
 	- [[maximum likelihood estimation]]
