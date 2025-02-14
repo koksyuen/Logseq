@@ -120,14 +120,14 @@
 		- (iii) IEEE Transactions on Neural Systems and Rehabilitation Engineering, impact factor 4.8, Q1
 	- Result
 		- optimization of parameters
-		- intra-subject result analysis
-			- Fixed ROI Channel: choose few subjects to compare (subjects which has lots of OBB vs less OBB)
 		- inter-subject result analysis
 			- Number of OBB
 			- Bar chart of Beta (Group average)
 			- Bar chart of t-value (one sample t-test)
 			- Excel file of p-value (paired t-test)
 			- Group Block Plot
+		- intra-subject result analysis
+			- Fixed ROI Channel: choose few subjects to compare (subjects which has lots of OBB vs less OBB)
 		- comparison of performance with other methods
 			- should I do comparison with single channel VPA on the previously defined ROI
 		- correlation with response time
