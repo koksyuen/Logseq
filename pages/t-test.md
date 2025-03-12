@@ -1,9 +1,20 @@
 - ![T-test: Definition, Formula, Types, Applications](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsNUHzZk2cpqSUeN1bngv2oc9u3c7u9PBitw&s){:height 322, :width 600}
 - [[t-distribution]]
 	- {{video https://youtu.be/UetYS3PaHIo?si=VrveawAeFXmRA36e}}
+- Implementation of [[t-test]] for [[Linear Regression]]
+	- {{video https://youtu.be/fZV4ntLEPlU?si=KbWcD8Ko9F2oM0Uf}}
+	- {{video https://youtu.be/78YNvrsRzVw?si=tRyptoXTKk8RdHmb}}
+	- [[t-value]] of $\beta_i$ for [[independent variable]] $x_i$ = $\beta_i$ / [[standard error]] of $\beta_i$
+		- Based on the formula of [[standard error]], [[t-value]] is
+			- directly proportional to:
+				- $\beta_i$
+				- variance of [[independent variable]] $x_i$
+			- inversely proportional to:
+				- [[Sum of Square Error]] of [[Linear Regression]]
+			- Therefore, for [[GLM]], the magnitude of [[regressor]] does not affect the [[t-value]], because the product of $\beta_i$ and $var(x_i)$ will still be same
 - Implementation of [[t-test]] for [[GLM]] :
-	- most understandable and formal mathematical method to apply t-test for [[GLM]]
-	  collapsed:: true
+  collapsed:: true
+	- formal mathematical method to apply t-test for [[GLM]]
 		- [[linear transformation theorem]]
 			- ![image.png](../assets/image_1720545737580_0.png)
 			- ![image.png](../assets/image_1720546207361_0.png)

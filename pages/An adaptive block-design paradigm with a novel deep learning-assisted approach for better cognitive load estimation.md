@@ -48,6 +48,7 @@
 	- paper
 		- LATER paper 1
 		- LATER paper 2
+- PhD duration: july 2024 ~ march 2027
 - Brief summary
   collapsed:: true
 	- {{renderer :wordcount_}}/

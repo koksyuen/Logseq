@@ -1,7 +1,9 @@
 - distribution
 	- [[normal distribution]]
 	- [[Multivariate Normal distribution]]
+	- [[t-distribution]]
 	- [[chi squared distribution]]
+	- [[f distribution]]
 - [[hypothesis testing]]
 	- [[t-test]]
 	- [[chi squared test]]
