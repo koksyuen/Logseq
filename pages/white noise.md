@@ -1,0 +1,5 @@
+- {{video https://youtu.be/cr4zIXAmSRI?si=-5vnr_hIf87NbWCU}}
+- {{youtube-timestamp 60}} definition
+	- zero mean
+	- constant standard deviation
+	- zero correlation between [[lags]]
