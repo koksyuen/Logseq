@@ -4,8 +4,8 @@ alias:: GLM, Generalized Linear Model
 	- [[cHRF]]
 	- [[time derivative]]
 	- [[dispersion derivative]]
-- with [[cHRF]] only
-  collapsed:: true
-	- ![image.png](../assets/image_1734378674077_0.png)
-- with [[cHRF]], [[time derivative]] and [[dispersion derivative]]
 	- ![image.png](../assets/image_1734378722586_0.png)
+- [[gauss markov assumption]]
+	- ![image.png](../assets/image_1742133573330_0.png)
+	- [[least square]] estimator is the [[best linear unbiased estimator]]
+		- with assumption: error is [[IID]] with zero mean and constant variance
