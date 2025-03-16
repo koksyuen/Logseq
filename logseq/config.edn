@@ -292,7 +292,7 @@
  ;;  :journal?        false} ; Default value: false
 
  ;; Favorites to list on the left sidebar
- :favorites ["meeting with dr lim lam ghai" "neuroscience" "algebra" "statistic" "linear algebra" "machine learning" "reinforcement learning" "research" "nwpu research" "literature review" "literature_notes_example" "template" "query" "templates"]
+ :favorites ["An adaptive block-design paradigm with a novel deep learning-assisted approach for better cognitive load estimation" "meeting with dr lim lam ghai" "neuroscience" "algebra" "statistic" "linear algebra" "machine learning" "reinforcement learning" "nwpu research" "literature review" "literature_notes_example" "template" "query" "templates"]
 
  ;; Set flashcards interval.
  ;; Expected value:

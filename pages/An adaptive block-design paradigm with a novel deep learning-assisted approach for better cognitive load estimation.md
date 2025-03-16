@@ -125,6 +125,8 @@
 				- design GLM design matrix
 					- robust to variability in HRF shape
 					- robust to noise
+			- evaluation
+				- [[parametric modulator]]
 		- Second paper: multi-channel VPA
 		  collapsed:: true
 			- Targets
