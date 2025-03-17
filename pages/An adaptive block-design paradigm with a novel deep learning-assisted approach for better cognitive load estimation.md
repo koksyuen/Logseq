@@ -128,20 +128,22 @@
 			- evaluation
 				- [[parametric modulator]]
 		- Second paper: multi-channel VPA
-		  collapsed:: true
 			- Targets
 				- (i) IEEE Journal of Biomedical and Health Informatics, impact factor 6.7, Q1
 				- (ii) IEEE Transactions on Cognitive and Developmental Systems, impact factor 5, Q1
 				- (iii) IEEE Transactions on Neural Systems and Rehabilitation Engineering, impact factor 4.8, Q1
-			- optimization of parameters
-			- inter-subject result analysis
-				- Number of OBB
-				- Bar chart of Beta (Group average)
-				- Bar chart of t-value (one sample t-test)
-				- Excel file of p-value (paired t-test)
-				- Group Block Plot
-			- intra-subject result analysis
-				- Fixed ROI Channel: choose few subjects to compare (subjects which has lots of OBB vs less OBB)
-			- comparison of performance with other methods
-				- should I do comparison with single channel VPA on the previously defined ROI
-			- correlation with response time
+			- result and discussion
+				- [[parametric modulator]]
+				- [[multi-voxel pattern analysis]]
+				- optimization of parameters
+				- inter-subject result analysis
+					- Number of OBB
+					- Bar chart of Beta (Group average)
+					- Bar chart of t-value (one sample t-test)
+					- Excel file of p-value (paired t-test)
+					- Group Block Plot
+				- intra-subject result analysis
+					- Fixed ROI Channel: choose few subjects to compare (subjects which has lots of OBB vs less OBB)
+				- comparison of performance with other methods
+					- should I do comparison with single channel VPA on the previously defined ROI
+				- correlation with response time
