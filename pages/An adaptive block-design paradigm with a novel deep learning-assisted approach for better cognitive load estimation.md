@@ -124,7 +124,13 @@
 			- objective
 				- design GLM design matrix
 					- robust to variability in HRF shape
-					- robust to noise
+						- [[initial dip]]
+						- [[post stimulus undershoot]]
+					- robust to noise ([[autoregression]] model)
+			- literature review
+				- argument that HbR not suppose to have same [[cHRF]] as HbO
+					- from [[Optimizing the general linear model for fNIRS - an adaptive hemodynamic response function approach]]
+						- "Hoshi raised a concern about blindly adapting the GLM approach to fNIRS data and emphasized the necessity of taking hemodynamic variations into account."
 			- evaluation
 				- [[parametric modulator]]
 		- Second paper: multi-channel VPA
