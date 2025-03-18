@@ -128,6 +128,7 @@
 						- [[post stimulus undershoot]]
 					- robust to noise ([[autoregression]] model)
 			- literature review
+			  collapsed:: true
 				- argument that HbR not suppose to have same [[cHRF]] as HbO
 					- from [[Optimizing the general linear model for fNIRS - an adaptive hemodynamic response function approach]]
 						- "Hoshi raised a concern about blindly adapting the GLM approach to fNIRS data and emphasized the necessity of taking hemodynamic variations into account."
