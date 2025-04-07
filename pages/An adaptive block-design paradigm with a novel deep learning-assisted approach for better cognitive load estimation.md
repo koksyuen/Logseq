@@ -117,6 +117,12 @@
 - Journal
 	- Papers
 		- First paper: Adaptive HRF
+			- record
+				- tune_unbiased_constraint_glm_first_20
+					- P_lb_hbo = [0 4 2 2 0 0];
+					  P_ub_hbo = [3 8 10 8 0.1 0.5];
+					  P_lb_hbr = [0 4 4 2 0 0];
+					  P_ub_hbr = [4.5 14 10 12 0.25 0.25];
 			- target
 				- (i) IEEE Transactions on Medical Imaging
 				- (ii) IEEE Journal of Biomedical and Health Informatics
