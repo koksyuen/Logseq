@@ -119,10 +119,45 @@
 		- First paper: Adaptive HRF
 			- record
 				- hrf_param_20250408.mat
+					- subject: 1 ~ 17
 					- P_lb_hbo = [0 4 2 2 0 0];
 					  P_ub_hbo = [3 8 10 8 0.1 0.5];
 					  P_lb_hbr = [0 4 4 2 0 0];
 					  P_ub_hbr = [4.5 14 10 12 0.25 0.25];
+					- function t = glm_cos_hrf_t(parameter, freq, hbo, unit)
+					      
+					      num_particle = size(parameter,1); % each row represents one particle
+					     
+					      half_cosine_hrf = parallel_cos_hrf6(parameter,freq);
+					  
+					      glm_hrf = conv2(unit,half_cosine_hrf');
+					      glm_hrf = glm_hrf(1:length(unit),:)';
+					      offset = ones(num_particle,length(unit));
+					      X = cat(3,glm_hrf,offset);
+					  
+					      % solve linear equation: y_hbo = glm_hrf * beta
+					      % y_hbo [t_len*1*num_particle]
+					      % design_matrix [t_len*2*num_particle]
+					      % beta [2*num_particle]
+					      y_hbo = repmat(hbo',1,1,num_particle);
+					      design_matrix = permute(X,[2 3 1]);
+					      beta = squeeze(pagelsqminnorm(design_matrix,y_hbo));
+					  
+					      X_reshaped = permute(X, [3, 2, 1]);
+					      beta_reshaped = permute(beta,[1 3 2]);
+					      y_pho = sum(X_reshaped .* beta_reshaped,1);
+					      est_y = permute(y_pho,[3 2 1]);
+					      sse = sum((est_y - hbo).^2, 2);
+					  
+					      beta_negative = beta(1,:)' < 0;
+					      t_peak = sum(parameter(:,1:2),2);
+					      t_peak_invalid = t_peak > 7;
+					      beta_polarity = sign(beta(1,:)');
+					      t = sse + beta_negative .* t_peak_invalid .* exp(-beta_polarity .* t_peak / 7);
+					  
+					      
+					      % t = sse + beta_negative * 1e10;
+					  end
 			- target
 				- (i) IEEE Transactions on Medical Imaging
 				- (ii) IEEE Journal of Biomedical and Health Informatics
