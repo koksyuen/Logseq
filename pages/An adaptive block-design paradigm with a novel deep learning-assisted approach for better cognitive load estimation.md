@@ -118,7 +118,7 @@
 	- Papers
 		- First paper: Adaptive HRF
 			- record
-				- tune_unbiased_constraint_glm_first_20
+				- hrf_param_20250408.mat
 					- P_lb_hbo = [0 4 2 2 0 0];
 					  P_ub_hbo = [3 8 10 8 0.1 0.5];
 					  P_lb_hbr = [0 4 4 2 0 0];
