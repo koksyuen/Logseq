@@ -163,6 +163,7 @@
 					  P_ub_hbo = [3 8 10 8 0.1 0.5];
 					  P_lb_hbr = [0 4 2 2 0 0];
 					  P_ub_hbr = [4.5 14 10 12 0.25 0.5];
+					  tolerance = 0.1;
 					- function t = glm_cos_hrf_t(parameter, freq, hbo, unit, tolerance)
 					      
 					      num_particle = size(parameter,1); % each row represents one particle
