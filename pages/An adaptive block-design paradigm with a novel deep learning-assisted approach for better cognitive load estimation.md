@@ -118,6 +118,7 @@
 	- Papers
 		- First paper: Adaptive HRF
 			- record
+			  collapsed:: true
 				- dataset: P1_02
 					- hrf_param_20250408.mat
 					  collapsed:: true
@@ -161,7 +162,6 @@
 						      % t = sse + beta_negative * 1e10;
 						  end
 					- hrf_param_20250409.mat
-					  collapsed:: true
 						- P_lb_hbo = [0 4 2 2 0 0];
 						  P_ub_hbo = [3 8 10 8 0.1 0.5];
 						  P_lb_hbr = [0 4 2 2 0 0];
@@ -197,7 +197,6 @@
 						      t = sse + beta_negative .* penalty;
 						  end
 					- hrf_param_20250410.mat
-					  collapsed:: true
 						- P_lb_hbo = [0 4 2 2 0 0];
 						  P_ub_hbo = [3 8 10 8 0.1 0.5];
 						  P_lb_hbr = [0 4 2 2 0 0];
@@ -274,7 +273,6 @@
 						      
 						  end
 					- hrf_param_20250417.mat
-					  collapsed:: true
 						- P_lb_hbo = [0 4 2 2 0 0];
 						  P_ub_hbo = [3 8 10 8 0.1 0.5];
 						  P_lb_hbr = [0 4 2 2 0 0];
@@ -310,6 +308,7 @@
 						      t = sse + beta_negative .* penalty;
 						  end
 				- dataset: P1_01
+				  collapsed:: true
 					- hrf_param_20250409.mat
 						- P_lb_hbo = [0 4 2 2 0 0];
 						  P_ub_hbo = [3 8 10 8 0.1 0.5];  
@@ -345,6 +344,11 @@
 						      penalty = tolerance * min(sse);  
 						      t = sse + beta_negative .* penalty;  
 						  end
+			- [[AR-IRLS]] result
+				- ARIRLS_20250426.mat
+					- [b,a]=butter(3,[0.01/(10/2) 0.2/(10/2)]); %bandpass filter
+				- ARIRLS_20250427.mat
+					- [b,a]=butter(3,0.01/(10/2),"high"); %high pass filter
 			- target
 				- (i) IEEE Transactions on Medical Imaging
 				- (ii) IEEE Journal of Biomedical and Health Informatics

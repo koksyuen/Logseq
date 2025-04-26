@@ -2,7 +2,7 @@ alias:: R square, R^2, R2
 
 - Calculate how much **reduction in variation** after taking the parameters into account.
 - denotes goodness of fit
-	- thus greater is better
+	- thus **greater value indicates better fit**
 - Procedure:
 	- {{video https://youtu.be/bMccdk8EdGo?si=O3iQVp7utW4nyMnM}}
 	- Calculate variance with respect to mean
