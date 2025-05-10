@@ -2,6 +2,8 @@ alias:: short term memory, working memory tasks
 
 - seem like computer's RAM
 - everyone's working memory has limited capacity [[working memory capacity]]
+- [[BA]] related to [[working memory]]
+	- https://chatgpt.com/s/dr_681bb8a839a48191a69c07b7f95f61bd
 - model
   {{video https://youtu.be/We2GH6NIEBs?si=qi1oKwkNuXqWNCXI}}
 	- [[phonological loop]]

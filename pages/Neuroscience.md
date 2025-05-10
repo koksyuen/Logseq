@@ -3,6 +3,8 @@
 		- [[cerebrum]]
 		- [[brodmann areas]]
 	- Device
+		- [[EEG]]
+			- [[international 10-20 system]]
 		- [[fMRI]]
 		- [[fNIRS]]
 			- analysis for activation
