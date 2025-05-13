@@ -197,6 +197,7 @@
 						      t = sse + beta_negative .* penalty;
 						  end
 					- hrf_param_20250410.mat
+					  collapsed:: true
 						- P_lb_hbo = [0 4 2 2 0 0];
 						  P_ub_hbo = [3 8 10 8 0.1 0.5];
 						  P_lb_hbr = [0 4 2 2 0 0];
@@ -279,6 +280,41 @@
 						  P_lb_hbr = [0 4 2 2 0 0];
 						  P_ub_hbr = [4.5 14 10 12 0.25 0.5];
 						  tolerance = 0.15;
+						- function t = glm_cos_hrf_t_error(parameter, freq, hbo, unit, tolerance)
+						      
+						      num_particle = size(parameter,1); % each row represents one particle
+						     
+						      half_cosine_hrf = parallel_cos_hrf6(parameter,freq);
+						  
+						      glm_hrf = conv2(unit,half_cosine_hrf');
+						      glm_hrf = glm_hrf(1:length(unit),:)';
+						      offset = ones(num_particle,length(unit));
+						      X = cat(3,glm_hrf,offset);
+						  
+						      % solve linear equation: y_hbo = glm_hrf * beta
+						      % y_hbo [t_len*1*num_particle]
+						      % design_matrix [t_len*2*num_particle]
+						      % beta [2*num_particle]
+						      y_hbo = repmat(hbo',1,1,num_particle);
+						      design_matrix = permute(X,[2 3 1]);
+						      beta = squeeze(pagelsqminnorm(design_matrix,y_hbo));
+						  
+						      X_reshaped = permute(X, [3, 2, 1]);
+						      beta_reshaped = permute(beta,[1 3 2]);
+						      y_pho = sum(X_reshaped .* beta_reshaped,1);
+						      est_y = permute(y_pho,[3 2 1]);
+						      sse = sum((est_y - hbo).^2, 2);
+						  
+						      beta_negative = beta(1,:)' < 0;
+						      penalty = tolerance * min(sse);
+						      t = sse + beta_negative .* penalty;
+						  end
+					- hrf_param_20250417.mat
+						- P_lb_hbo = [0 4 2 2 0 0];
+						  P_ub_hbo = [3 8 10 8 0.1 0.5];
+						  P_lb_hbr = [0 4 2 2 0 0];
+						  P_ub_hbr = [4.5 14 10 12 0.25 0.5];
+						  tolerance = 0.2;
 						- function t = glm_cos_hrf_t_error(parameter, freq, hbo, unit, tolerance)
 						      
 						      num_particle = size(parameter,1); % each row represents one particle
@@ -492,6 +528,7 @@
 						      t = sse + beta_negative .* penalty;
 						  end
 					- param_hrf_20250502.mat
+					  collapsed:: true
 						- tolerance = 0.15;
 						  P_lb_hbo = [0 4 2 2 0 0];
 						  P_ub_hbo = [3 8 10 8 0.1 0.5];
@@ -528,7 +565,6 @@
 						      t = sse + beta_negative .* penalty;
 						  end
 			- [[AR-IRLS]] result
-			  collapsed:: true
 				- ARIRLS_20250426.mat
 					- [b,a]=butter(3,[0.01/(10/2) 0.2/(10/2)]); %bandpass filter
 				- ARIRLS_20250427.mat
