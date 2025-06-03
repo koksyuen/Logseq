@@ -118,6 +118,7 @@
 	- Papers
 		- First paper: Adaptive HRF
 			- record
+			  collapsed:: true
 				- dataset: P1_02
 					- hrf_param_20250408.mat
 					  collapsed:: true
@@ -310,7 +311,6 @@
 						      t = sse + beta_negative .* penalty;
 						  end
 					- hrf_param_20250514mat
-					  collapsed:: true
 						- P_lb_hbo = [0 4 2 2 0 0];
 						  P_ub_hbo = [3 8 10 8 0.1 0.5];
 						  P_lb_hbr = [0 4 2 2 0 0];
@@ -346,6 +346,7 @@
 						      t = sse + beta_negative .* penalty;
 						  end
 				- dataset: P1_01
+				  collapsed:: true
 					- hrf_param_20250423.mat
 					  collapsed:: true
 						- P_lb_hbo = [0 4 2 2 0 0];
@@ -492,7 +493,6 @@
 						      t = sse + beta_negative .* penalty;
 						  end
 					- param_hrf_20250501.mat
-					  collapsed:: true
 						- tolerance = 0.05;
 						  P_lb_hbo = [0 4 2 2 0 0];
 						  P_ub_hbo = [3 8 10 8 0.1 0.5];
@@ -529,7 +529,6 @@
 						      t = sse + beta_negative .* penalty;
 						  end
 					- param_hrf_20250502.mat
-					  collapsed:: true
 						- tolerance = 0.15;
 						  P_lb_hbo = [0 4 2 2 0 0];
 						  P_ub_hbo = [3 8 10 8 0.1 0.5];
@@ -566,17 +565,54 @@
 						      t = sse + beta_negative .* penalty;
 						  end
 			- [[AR-IRLS]] result
-				- ARIRLS_20250426.mat
-					- [b,a]=butter(3,[0.01/(10/2) 0.2/(10/2)]); %bandpass filter
-					- method_names = {'fixed hrf GLM' '3hrf GLM' '3hrf RGLM' 'optimised hrf GLM' 'adaptive hrf GLM T5' 'adaptive hrf GLM T10' 'adaptive hrf GLM T15' 'Gaussian basis FIR' 'Tent basis FIR'};
-				- ARIRLS_20250427.mat
-					- [b,a]=butter(3,0.01/(10/2),"high"); %high pass filter
-					- method_names = {'fixed hrf GLM' '3hrf GLM' '3hrf RGLM' 'optimised hrf GLM' 'adaptive hrf GLM T5' 'adaptive hrf GLM T10' 'adaptive hrf GLM T15' 'Gaussian basis FIR' 'Tent basis FIR'};
-				- ARIRLS_20250514.mat
-					- [b,a]=butter(3,[0.01/(10/2) 0.2/(10/2)]); %bandpass filter
-					- method_names = {'fixed hrf GLM' '3hrf GLM' '3hrf RGLM' 'optimised hrf GLM' 'adaptive hrf GLM T5' 'adaptive hrf GLM T10' 'adaptive hrf GLM T15' 'Gaussian basis FIR' 'Tent basis FIR'};
+			  collapsed:: true
+				- dataset: P1_02
+					- ARIRLS_20250426.mat
+						- [b,a]=butter(3,[0.01/(10/2) 0.2/(10/2)]); %bandpass filter
+						- method_names = {'fixed hrf GLM' '3hrf GLM' '3hrf RGLM' 'optimised hrf GLM' 'adaptive hrf GLM T5' 'adaptive hrf GLM T10' 'adaptive hrf GLM T15' 'Gaussian basis FIR' 'Tent basis FIR'};
+					- ARIRLS_20250427.mat
+						- [b,a]=butter(3,0.01/(10/2),"high"); %high pass filter
+						- method_names = {'fixed hrf GLM' '3hrf GLM' '3hrf RGLM' 'optimised hrf GLM' 'adaptive hrf GLM T5' 'adaptive hrf GLM T10' 'adaptive hrf GLM T15' 'Gaussian basis FIR' 'Tent basis FIR'};
+					- ARIRLS_20250516.mat
+						- [b,a]=butter(3,0.01/(10/2),"high"); %high pass filter
+						- method_names = {'fixed hrf GLM' '3hrf GLM' '3hrf RGLM' 'optimised hrf GLM' 'BA optimised hrf GLM' 'adaptive hrf GLM T5' 'adaptive hrf GLM T10' 'adaptive hrf GLM T15' 'adaptive hrf GLM T20' 'Gaussian basis FIR' 'Tent basis FIR'};
+					- ARIRLS_20250517.mat
+						- [b,a]=butter(3,[0.01/(10/2) 0.2/(10/2)]); %bandpass filter
+						- method_names = {'fixed hrf GLM' '3hrf GLM' '3hrf RGLM' 'optimised hrf GLM' 'BA optimised hrf GLM' 'adaptive hrf GLM T5' 'adaptive hrf GLM T10' 'adaptive hrf GLM T15' 'adaptive hrf GLM T20' 'Gaussian basis FIR' 'Tent basis FIR'};
+					- ARIRLS_20250520.mat
+						- from scratch
+						- baseline with aid of intercept
+						- filter_hbo = hbo_hp_mc(channel_num,:);
+						              filter_hbr = hbr_hp_mc(channel_num,:);
+						  
+						              % for visualization
+						              hbo_viz = zeros(total_method_num+1,length(stimulus));
+						              hbr_viz = zeros(total_method_num+1,length(stimulus));
+						              hbo_viz(end,:) = hbo_bp_mc(channel_num,:); % last is HbO reading
+						              hbr_viz(end,:) = hbr_bp_mc(channel_num,:); % last is HbR reading
+						- method_names = {'fixed hrf GLM' '3hrf GLM' '3hrf RGLM' 'optimised hrf GLM' 'BA optimised hrf GLM' 'adaptive hrf GLM T5' 'adaptive hrf GLM T10' 'adaptive hrf GLM T15' 'adaptive hrf GLM T20' 'Gaussian basis FIR' 'Tent basis FIR'};
+					- ARIRLS_20250521.mat
+						- from scratch
+						- baseline with aid of intercept
+						- filter_hbo = hbo_bp_mc(channel_num,:);
+						              filter_hbr = hbr_bp_mc(channel_num,:);
+						  
+						              % for visualization
+						              hbo_viz = zeros(total_method_num+1,length(stimulus));
+						              hbr_viz = zeros(total_method_num+1,length(stimulus));
+						              hbo_viz(end,:) = hbo_bp_mc(channel_num,:); % last is HbO reading
+						              hbr_viz(end,:) = hbr_bp_mc(channel_num,:); % last is HbR reading
+						- method_names = {'fixed hrf GLM' '3hrf GLM' '3hrf RGLM' 'optimised hrf GLM' 'BA optimised hrf GLM' 'adaptive hrf GLM T5' 'adaptive hrf GLM T10' 'adaptive hrf GLM T15' 'adaptive hrf GLM T20' 'Gaussian basis FIR' 'Tent basis FIR'};
+				- dataset: P1_01
+				  collapsed:: true
+					- ARIRLS_20250518.mat
+						- [b,a]=butter(3,0.01/(10/2),"high"); %high pass filter
+						- method_names = {'fixed hrf GLM' '3hrf GLM' '3hrf RGLM' 'optimised hrf GLM' 'BA optimised hrf GLM' 'adaptive hrf GLM T5' 'adaptive hrf GLM T10' 'adaptive hrf GLM T15' 'adaptive hrf GLM T20' 'Gaussian basis FIR' 'Tent basis FIR'}
+					- ARIRLS_20250519.mat
+						- [b,a]=butter(3,[0.01/(10/2) 0.2/(10/2)]); %bandpass filter
+						- method_names = {'fixed hrf GLM' '3hrf GLM' '3hrf RGLM' 'optimised hrf GLM' 'BA optimised hrf GLM' 'adaptive hrf GLM T5' 'adaptive hrf GLM T10' 'adaptive hrf GLM T15' 'adaptive hrf GLM T20' 'Gaussian basis FIR' 'Tent basis FIR'}
 			- target
-				- (i) IEEE Transactions on Medical Imaging
+				- (i) IEEE Transactions on Medical Imaging, impact factor 8.9, Q1
 				- (ii) IEEE Journal of Biomedical and Health Informatics
 				- (iii) IEEE Transactions on Neural Systems and Rehabilitation Engineering
 			- objective

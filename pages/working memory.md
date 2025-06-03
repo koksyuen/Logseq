@@ -20,4 +20,7 @@ alias:: short term memory, working memory tasks
   {{video https://youtu.be/PWHq95-hkkA?si=Dg4uiOJFptMFfRIi}}
 	- [[n-back test]] {{youtube-timestamp 311}}
 	- [[calculation test]] {{youtube-timestamp 368}}
+		- [[BA]] related to [[calculation test]]
+			- https://chatgpt.com/s/dr_6839dcdf9e208191837d78399ff8956e
+			- https://chatgpt.com/s/dr_6839dff83a008191b9143712d9251c2d
 	- [[rotation test]] {{youtube-timestamp 403}}

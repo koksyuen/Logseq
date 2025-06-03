@@ -25,8 +25,7 @@
 	  ![image.png](../assets/image_1691874785935_0.png)
 	- [[Actor-Critic Methods]]
 - [[entropy regularization]]
-	- entropy loss in [[RL]]：
+	- [[entropy]] loss in [[RL]]：
 	  $$L = -H((\pi(\cdot|s_t))$$
 	  ![image.png](../assets/image_1695587776199_0.png) 
 	  ensure the variance probability distribution of action, $a$ is not too low, to **aid exploration** of policy during training
-	-

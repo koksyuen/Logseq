@@ -1,5 +1,4 @@
-collapsed:: true
-
+- Prerequisites
 	- Notation
 	  ![image.png](../assets/image_1691822540004_0.png)
 	- [[Probability Distribution Function]] 
