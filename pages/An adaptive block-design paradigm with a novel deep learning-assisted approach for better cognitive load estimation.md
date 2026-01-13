@@ -761,16 +761,22 @@
 					- line fitting
 					-
 		- Second paper: multi-channel VPA
-		  collapsed:: true
 			- Targets
 				- (i) IEEE Journal of Biomedical and Health Informatics, impact factor 6.7, Q1
 				- (ii) IEEE Transactions on Cognitive and Developmental Systems, impact factor 5, Q1
 				- (iii) IEEE Transactions on Neural Systems and Rehabilitation Engineering, impact factor 4.8, Q1
 			- Result
+				- nsga result
+					- nsga_20260112.mat
+						- pso_file = 'C:\Users\koksy\OneDrive\Desktop\PHD\Dr Lim Lam Ghai\Matlab\Project2\hrf_obj\hrf_param_20260110.mat';
+						- lb = zeros(1,2+total_channel_num);
+						  ub = ones(1,2+total_channel_num);
+						  A = [1 -1 zeros(1,total_channel_num)];
+						  b = 0;
+						  options = optimoptions('gamultiobj','Display','iter','PopulationSize',200,'MaxStallGenerations', 150,'UseParallel',true,'UseVectorized',false);
 				- objective function hrf
-				  collapsed:: true
 					- hrf_param_20260110.mat
-						- tolerance = 0.10;
+						- tolerance = 0.05;
 						  
 						  P_lb_hbo = [0 4 2 2 0 0];
 						  P_ub_hbo = [3 8 10 8 0.1 0.5];
@@ -782,6 +788,7 @@
 						  hbr_param = zeros(total_subject_num,total_channel_num,total_trial_num,length(P_lb_hbr));
 				- original hrf
 					- hrf_param_20260108.mat
+					  collapsed:: true
 						- tolerance = 0.15;
 						  
 						  P_lb_hbo = [0 4 2 2 0 0];
@@ -790,6 +797,7 @@
 						  P_lb_hbr = [0 4 2 2 0 0];
 						  P_ub_hbr = [4.5 14 10 12 0.25 0.5];
 					- hrf_param_20260109.mat
+					  collapsed:: true
 						- tolerance = 0.10;
 						  
 						  P_lb_hbo = [0 4 2 2 0 0];
@@ -799,6 +807,7 @@
 						  P_ub_hbr = [4.5 14 10 12 0.25 0.5];
 				- vpa hrf
 					- hrf_param_20260112.mat
+					  collapsed:: true
 						- ideal_fval = [0 1 0];
 						  weight_fval = [1 1 1];
 						  
