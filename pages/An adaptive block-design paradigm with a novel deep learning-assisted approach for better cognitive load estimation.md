@@ -761,6 +761,7 @@
 					- line fitting
 					-
 		- Second paper: multi-channel VPA
+		  collapsed:: true
 			- Targets
 				- (i) IEEE Journal of Biomedical and Health Informatics, impact factor 6.7, Q1
 				- (ii) IEEE Transactions on Cognitive and Developmental Systems, impact factor 5, Q1
@@ -825,3 +826,10 @@
 				- comparison of performance with other methods
 					- should I do comparison with single channel VPA on the previously defined ROI
 				- correlation with response time
+		- Third paper: Deep learning
+		- Forth paper: Real time baseline return detection
+			- task:
+				- n-back
+				- stroop task
+				- verbal fluency
+				- finger tapping
