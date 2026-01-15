@@ -773,7 +773,21 @@
 						  ub = ones(1,2+total_channel_num);
 						  A = [1 -1 zeros(1,total_channel_num)];
 						  b = 0;
-						  options = optimoptions('gamultiobj','Display','iter','PopulationSize',200,'MaxStallGenerations', 150,'UseParallel',true,'UseVectorized',false);
+						  options = optimoptions('gamultiobj','Display','iter','PopulationSize',250,'MaxStallGenerations', 250,'UseParallel',true,'UseVectorized',false);
+						- optFun = @(x)vpa_obj_func(x,ds_HbO,ds_HbR,ds_timestamp,valid_subject(human_id,:), ...
+						          squeeze(hbo_betas(human_id,:,:)),squeeze(hbo_sigmas(human_id,:,:)), ...
+						          ,total_channel_num,total_trial_num);
+					- nsga_20260115.mat
+						- pso_file = 'C:\Users\koksy\OneDrive\Desktop\PHD\Dr Lim Lam Ghai\Matlab\Project2\hrf_obj\hrf_param_20260110.mat';
+						- lb = zeros(1,2+total_channel_num);
+						  ub = ones(1,2+total_channel_num);
+						  A = [1 -1 zeros(1,total_channel_num)];
+						  b = 0;
+						  options = optimoptions('gamultiobj','Display','iter','PopulationSize',250,'MaxStallGenerations', 250,'UseParallel',true,'UseVectorized',false);
+						- optFun = @(x)vpa_obj_func2(x,ds_HbO,ds_HbR,ds_timestamp,valid_subject(human_id,:), ...
+						          squeeze(hbo_betas(human_id,:,:)),squeeze(hbo_sigmas(human_id,:,:)), ...
+						          squeeze(hbr_betas(human_id,:,:)),squeeze(hbr_sigmas(human_id,:,:)) ...
+						          ,total_channel_num,total_trial_num);
 				- objective function hrf
 					- hrf_param_20260110.mat
 						- tolerance = 0.05;
