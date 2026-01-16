@@ -768,6 +768,7 @@
 			- Result
 				- nsga result
 					- nsga_20260112.mat
+					  collapsed:: true
 						- pso_file = 'C:\Users\koksy\OneDrive\Desktop\PHD\Dr Lim Lam Ghai\Matlab\Project2\hrf_obj\hrf_param_20260110.mat';
 						- lb = zeros(1,2+total_channel_num);
 						  ub = ones(1,2+total_channel_num);
@@ -778,6 +779,7 @@
 						          squeeze(hbo_betas(human_id,:,:)),squeeze(hbo_sigmas(human_id,:,:)), ...
 						          ,total_channel_num,total_trial_num);
 					- nsga_20260115.mat
+					  collapsed:: true
 						- pso_file = 'C:\Users\koksy\OneDrive\Desktop\PHD\Dr Lim Lam Ghai\Matlab\Project2\hrf_obj\hrf_param_20260110.mat';
 						- lb = zeros(1,2+total_channel_num);
 						  ub = ones(1,2+total_channel_num);
@@ -789,6 +791,8 @@
 						          squeeze(hbr_betas(human_id,:,:)),squeeze(hbr_sigmas(human_id,:,:)) ...
 						          ,total_channel_num,total_trial_num);
 					- nsga_20260116.mat
+					  id:: 69691982-64a4-4044-b8a3-31000b024075
+					  collapsed:: true
 						- pso_file = 'C:\Users\koksy\OneDrive\Desktop\PHD\Dr Lim Lam Ghai\Matlab\Project2\hrf_obj\hrf_param_20260110.mat';
 						- lb = zeros(1,2+total_channel_num);
 						  ub = ones(1,2+total_channel_num);
@@ -808,6 +812,25 @@
 						          squeeze(hbo_betas(human_id,:,:)),squeeze(hbo_sigmas(human_id,:,:)), ...
 						          squeeze(hbr_betas(human_id,:,:)),squeeze(hbr_sigmas(human_id,:,:)) ...
 						          ,total_channel_num,total_trial_num);
+					- nsga_20260117.mat
+						- pso_file = 'C:\Users\koksy\OneDrive\Desktop\PHD\Dr Lim Lam Ghai\Matlab\Project2\hrf_obj\hrf_param_20260110.mat';
+						- lb = zeros(1,2+total_channel_num);
+						  ub = ones(1,2+total_channel_num);
+						  A = [1 -1 zeros(1,total_channel_num)];
+						  b = 0;
+						  options = optimoptions('gamultiobj','Display','iter','PopulationSize',250,'MaxStallGenerations', 250,'UseParallel',true,'UseVectorized',false);
+						- excel_BA_path = "C:\Users\koksy\OneDrive\Desktop\PHD\Dr Lim Lam Ghai\channel BA.xlsx";
+						  excel_BA = readmatrix(excel_BA_path,"Sheet",'DLPFC','Range','U2:U53');
+						  excel_BA(isnan(excel_BA)) = 0;
+						  BA_weight = excel_BA / sum(excel_BA); 
+						  BA_weight = reshape(BA_weight,1,numel(BA_weight),1);
+						  hbo_betas = hbo_betas .* BA_weight;
+						  hbo_sigmas = hbo_sigmas .* BA_weight;
+						  hbr_betas = hbr_betas .* BA_weight;
+						  hbr_sigmas = hbr_sigmas .* BA_weight;
+						- optFun = @(x)vpa_obj_func(x,ds_HbO,ds_HbR,ds_timestamp,valid_subject(human_id,:), ...
+						          squeeze(hbo_betas(human_id,:,:)),squeeze(hbo_sigmas(human_id,:,:)), ...
+						          total_channel_num,total_trial_num);
 				- objective function hrf
 					- hrf_param_20260110.mat
 						- tolerance = 0.05;
