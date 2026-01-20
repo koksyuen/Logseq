@@ -768,6 +768,7 @@
 			- Result
 				- nsga result
 					- nsga_20260112.mat
+					  collapsed:: true
 						- pso_file = 'C:\Users\koksy\OneDrive\Desktop\PHD\Dr Lim Lam Ghai\Matlab\Project2\hrf_obj\hrf_param_20260110.mat';
 						- lb = zeros(1,2+total_channel_num);
 						  ub = ones(1,2+total_channel_num);
@@ -812,6 +813,7 @@
 						          squeeze(hbr_betas(human_id,:,:)),squeeze(hbr_sigmas(human_id,:,:)) ...
 						          ,total_channel_num,total_trial_num);
 					- nsga_20260117.mat
+					  collapsed:: true
 						- pso_file = 'C:\Users\koksy\OneDrive\Desktop\PHD\Dr Lim Lam Ghai\Matlab\Project2\hrf_obj\hrf_param_20260110.mat';
 						- lb = zeros(1,2+total_channel_num);
 						  ub = ones(1,2+total_channel_num);
@@ -831,6 +833,7 @@
 						          squeeze(hbo_betas(human_id,:,:)),squeeze(hbo_sigmas(human_id,:,:)), ...
 						          total_channel_num,total_trial_num);
 					- nsga_20260118.mat
+					  collapsed:: true
 						- pso_file = 'C:\Users\koksy\OneDrive\Desktop\PHD\Dr Lim Lam Ghai\Matlab\Project2\hrf_obj\hrf_param_20260110.mat';
 						- lb = zeros(1,2+total_channel_num);
 						  ub = ones(1,2+total_channel_num);
@@ -852,6 +855,7 @@
 						          squeeze(hbo_betas(human_id,:,:)),squeeze(hbo_sigmas(human_id,:,:)), ...
 						          total_channel_num,total_trial_num);
 					- nsga_20260119.mat
+					  collapsed:: true
 						- pso_file = 'C:\Users\koksy\OneDrive\Desktop\PHD\Dr Lim Lam Ghai\Matlab\Project2\hrf_obj\hrf_param_20260110.mat';
 						- lb = zeros(1,2+total_channel_num);
 						  ub = ones(1,2+total_channel_num);
@@ -874,6 +878,7 @@
 						          squeeze(hbr_betas(human_id,:,:)),squeeze(hbr_sigmas(human_id,:,:)), ...
 						          total_channel_num,total_trial_num);
 				- objective function hrf
+				  collapsed:: true
 					- hrf_param_20260110.mat
 					  collapsed:: true
 						- tolerance = 0.05;
@@ -913,7 +918,6 @@
 						  P_lb_hbr = [0 4 2 2 0 0];
 						  P_ub_hbr = [4.5 14 10 12 0.25 0.5];
 				- vpa hrf
-				  collapsed:: true
 					- hrf_param_20260119.mat
 						- iideal_fval = [0 1 0 1 0];
 						  weight_fval = [1 1 1 1 1];
@@ -932,6 +936,19 @@
 						  weight_fval = [1 1 1 1 1];
 						  
 						  load 'C:\Users\koksy\OneDrive\Desktop\PHD\Dr Lim Lam Ghai\Matlab\Project2\nsga_result\nsga_20260119.mat';
+						- snr_thres = 20;
+						  tolerance = 0.05;
+						  
+						  P_lb_hbo = [0 4 2 2 0 0];
+						  P_ub_hbo = [3 8 10 8 0.1 0.5];
+						  
+						  P_lb_hbr = [0 4 2 2 0 0];
+						  P_ub_hbr = [4.5 14 10 12 0.25 0.5];
+					- hrf_param_20260122.mat
+						- iideal_fval = [0 1 0 1 0];
+						  weight_fval = [1 1 1 1 1];
+						  
+						  load 'C:\Users\koksy\OneDrive\Desktop\PHD\Dr Lim Lam Ghai\Matlab\Project2\nsga_result\nsga_20260116.mat';
 						- snr_thres = 20;
 						  tolerance = 0.05;
 						  
