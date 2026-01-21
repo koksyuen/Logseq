@@ -768,7 +768,6 @@
 			- Result
 				- nsga result
 					- nsga_20260112.mat
-					  collapsed:: true
 						- pso_file = 'C:\Users\koksy\OneDrive\Desktop\PHD\Dr Lim Lam Ghai\Matlab\Project2\hrf_obj\hrf_param_20260110.mat';
 						- lb = zeros(1,2+total_channel_num);
 						  ub = ones(1,2+total_channel_num);
@@ -779,7 +778,6 @@
 						          squeeze(hbo_betas(human_id,:,:)),squeeze(hbo_sigmas(human_id,:,:)), ...
 						          ,total_channel_num,total_trial_num);
 					- nsga_20260115.mat
-					  collapsed:: true
 						- pso_file = 'C:\Users\koksy\OneDrive\Desktop\PHD\Dr Lim Lam Ghai\Matlab\Project2\hrf_obj\hrf_param_20260110.mat';
 						- lb = zeros(1,2+total_channel_num);
 						  ub = ones(1,2+total_channel_num);
@@ -833,7 +831,6 @@
 						          squeeze(hbo_betas(human_id,:,:)),squeeze(hbo_sigmas(human_id,:,:)), ...
 						          total_channel_num,total_trial_num);
 					- nsga_20260118.mat
-					  collapsed:: true
 						- pso_file = 'C:\Users\koksy\OneDrive\Desktop\PHD\Dr Lim Lam Ghai\Matlab\Project2\hrf_obj\hrf_param_20260110.mat';
 						- lb = zeros(1,2+total_channel_num);
 						  ub = ones(1,2+total_channel_num);
